@@ -9,7 +9,7 @@
 </head>
 <body>
     <header> 
-            <div class="container mt-4">
+            <div class="container mt-4 mb-5">
                 <nav class="navbar navbar-expand-md ">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">Jaider Montaña</a>
@@ -27,72 +27,86 @@
                     </div>
                 </nav>
             </div>
-        </header>
+    </header>
 
     <main>
         <section class="Banner-home">
-            <div class="container text-center mt-3 p-5">
+            <div class="container text-center mt-5 p-5">
                 <div class="row">
                     <div class="col-12 mt-5  p-2">
                         <h1 class="titulo-banner">Jaider Montaña</h1>
                     </div>
                     <div class="col-12  p-4 mb-5">
                         <h2 class="mb-4 subtitulo-banner">Desarrollador Full Stack</h2>
-                        <button type="button" class=" boton-enlace"><img src="public/img/github-logo.svg"  alt=""><a href="">git</a></button>
-                        <button type="button" class=" boton-enlace"><img src="public/img/linkedin-logo.svg"  alt=""><a href="">LinkedIn</a></button>
-                        <button type="button" class=" boton-enlace"><img src="public/img/file-arrow-down.svg"  alt=""><a href="">Resumen</a></button>
-
+                        
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-outline-primary btn-custom">
+                                <img src="public/img/github-logo.svg" alt="GitHub"> GitHub
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-custom">
+                                <img src="public/img/linkedin-logo.svg" alt="LinkedIn"> LinkedIn
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-custom">
+                                <img src="public/img/file-arrow-down.svg" alt="Resumen"> Resumen
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- Proyectos  -->
         <section class="proyectos mt-4 container mb-5">
-            <h2 class="titulo-proyectos mb-5">Proyectos</h2>
-            <div class="row">
-                <div class="col">
-                    <article>
-                        <div class="card mb-3">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <button><img src="public/img/github-logo.svg" alt=""><a href="">git</a></button>
-                                    <button><img src="public/img/linkedin-logo.svg" alt=""><a href="">git</a></button>
-                                </div>
-                                </div>
-                            </div>
+        <h2 class="titulo-proyectos mb-5 text-center text-neon">Proyectos</h2>
+        
+        <div class="row g-4">
+            <!-- Proyecto 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-dark border-0 rounded-4 shadow-lg h-100">
+                    <img src="public/img/avatar.png" class="card-img-top rounded-top" alt="Proyecto 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-white">Proyecto 1</h5>
+                        <p class="card-text text-white-50">Descripción breve de lo que hace el proyecto.</p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm neon-btn">GitHub</a>
+                            <a href="#" class="btn btn-outline-info btn-sm neon-btn">Demo</a>
                         </div>
-                    </article>
+                    </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col">
-                    <article>
-                        <div class="card mb-3">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <button><img src="public/img/github-logo.svg" alt=""><a href="">git</a></button>
-                                    <button><img src="public/img/linkedin-logo.svg" alt=""><a href="">git</a></button>
-                                </div>
-                                </div>
-                            </div>
+            
+            <!-- Proyecto 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-dark border-0 rounded-4 shadow-lg h-100">
+                    <img src="public/img/avatar.png" class="card-img-top rounded-top" alt="Proyecto 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-white">Proyecto 1</h5>
+                        <p class="card-text text-white-50">Descripción breve de lo que hace el proyecto.</p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm neon-btn">GitHub</a>
+                            <a href="#" class="btn btn-outline-info btn-sm neon-btn">Demo</a>
                         </div>
-                    </article>
+                    </div>
                 </div>
             </div>
+            
+            <!-- Proyecto 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-dark border-0 rounded-4 shadow-lg h-100">
+                    <img src="public/img/avatar.png" class="card-img-top rounded-top" alt="Proyecto 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-white">Proyecto 1</h5>
+                        <p class="card-text text-white-50">Descripción breve de lo que hace el proyecto.</p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm neon-btn">GitHub</a>
+                            <a href="#" class="btn btn-outline-info btn-sm neon-btn">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
         </section>
+
 
         <section class="sobremi container mt-5 p-4">
             <h2 class="titulo-sobremi mb-5">sobre mi</h2>
