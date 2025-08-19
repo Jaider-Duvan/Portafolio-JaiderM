@@ -1,0 +1,66 @@
+body{
+    background-color:#080F16; 
+    /* max-width: 48rem;  */
+}
+.navbar .nav-link,
+.navbar-brand {
+    color: #1bf2dd !important; 
+}
+.navbar .nav-link:hover {
+    color: #ff00ff !important; 
+}
+.navbar-toggler {
+    background-color: #00e5ff; 
+}
+
+.titulo-banner{
+    font-size: 90px;
+    color: #00C8FF;
+}
+.subtitulo-banner{
+    color: #FB00FF;
+    font-size: 45px;
+}
+
+.boton-enlace{
+    background-color: #080F16;
+    color: #00e5ff;
+    border: 0;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.boton-enlace a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+/* 
+.Skills{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Skills h2{
+    width: 100%;
+}
+.mis_skills{
+    border: 2px blue solid;
+    text-align: center;
+    border-radius: 15px;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+.Skills img{
+    height: 80px;
+    width: 80px;
+}
+.info_skills{
+    margin-top: 18px;
+    margin-bottom: -15px;
+    text-align: center  ;
+} */
